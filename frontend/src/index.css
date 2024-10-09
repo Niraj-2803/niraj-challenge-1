@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  @apply bg-[#1C1C1C];
+}
+
+
+button {
+  @apply transition-all duration-200;
+}
+
+button {
+  @apply bg-[#4CAF50] text-white;
+}
+
+button:hover {
+  @apply bg-[#45A049];
+}
+
+/* Table styles */
+.table {
+  @apply min-w-full bg-white rounded-lg shadow-md;
+}
+
+th {
+  @apply bg-[#4CAF50] text-white;
+}
+
+td {
+  @apply text-gray-800;
+}
+
+
+.bg-card {
+  @apply bg-[#282828] rounded-lg shadow-lg;
+}
+
+
+footer {
+  font-size: 0.875rem;
+  @apply text-gray-400;
+}
+
+hr {
+  @apply border-gray-300;
+}
